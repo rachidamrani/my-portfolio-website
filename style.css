@@ -64,6 +64,7 @@ section {
 .main h2 {
   color: #fff;
   font-size: 3em;
+  margin-bottom: 1em;
 }
 
 .main h3 {
@@ -72,6 +73,7 @@ section {
   font-weight: 500;
   letter-spacing: 2px;
   margin: 0.5em 0;
+  margin-bottom: 1.5em;
 }
 
 .main h3 span {
@@ -90,6 +92,7 @@ section {
   border-radius: 0.9375em;
   transition: all ease 0.3s;
   margin: 0.5em 0;
+  margin-bottom: 3em;
 }
 
 .main-btn:hover {
@@ -128,7 +131,8 @@ section {
   justify-content: center;
 }
 
-.tech-stack h1 {
+.tech-stack h1,
+.projects h1 {
   text-align: center;
   font-size: 3em;
   margin-bottom: 1em;
@@ -149,4 +153,9 @@ section {
   width: 120px;
   height: 120px;
   padding: 1em;
+}
+
+.projects {
+  background-color: #72a0c1;
+  min-height: 100vh;
 }
