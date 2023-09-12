@@ -46,6 +46,8 @@ section {
 }
 
 .main {
+  position: relative;
+  top: 4em;
   background-color: blue;
   min-height: 100vh;
   display: flex;
@@ -63,8 +65,7 @@ section {
   font-size: xx-large;
   font-weight: 700;
   letter-spacing: 2px;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin: 0.5em 0;
 }
 
 .main h3 span {
@@ -82,7 +83,7 @@ section {
   display: inline-block;
   border-radius: 0.9375em;
   transition: all ease 0.3s;
-  margin: 1em 0;
+  margin: 0.5em 0;
 }
 
 .main-btn:hover {
@@ -95,6 +96,7 @@ section {
   font-size: 1.7em;
   display: flex;
   width: 200px;
+  margin-top: 1em;
 }
 
 .social-networks-icons a {
