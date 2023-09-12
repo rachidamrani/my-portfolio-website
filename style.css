@@ -46,8 +46,6 @@ section {
 }
 
 .main {
-  position: relative;
-  top: 4em;
   background-color: blue;
   min-height: 100vh;
   display: flex;
@@ -56,6 +54,8 @@ section {
   padding-right: 200px;
   padding-left: 200px;
   text-align: center;
+  position: relative;
+  top: 4em;
 }
 
 .main h2 {
@@ -124,8 +124,9 @@ section {
 
 .tech-stack h1 {
   text-align: center;
-  margin: 1em 0;
   font-size: xx-large;
+  margin-bottom: 1em;
+  letter-spacing: 2px;
 }
 
 .stack-icons {
@@ -134,11 +135,12 @@ section {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  width: 80%;
 }
 
 .stack-icons img {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   margin-right: 30px;
   margin-top: 30px;
 }
