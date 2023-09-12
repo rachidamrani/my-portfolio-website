@@ -60,10 +60,11 @@ section {
 
 .main h3 {
   color: white;
-  font-size: x-large;
+  font-size: xx-large;
   font-weight: 700;
   letter-spacing: 2px;
   margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .main h3 span {
@@ -87,4 +88,23 @@ section {
 .main-btn:hover {
   background-color: #577de8;
   transform: scale(1.07);
+}
+
+.social-networks-icons {
+  color: white;
+  font-size: 1.7em;
+  display: flex;
+  width: 200px;
+}
+
+.social-networks-icons a {
+  color: white;
+  text-decoration: none;
+  transition: all ease 0.3s;
+  margin-right: 35px;
+  font-size: larger;
+}
+
+.social-networks-icons a:hover {
+  transform: scale(1.1);
 }
