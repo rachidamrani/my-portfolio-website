@@ -16,6 +16,10 @@ header {
   border-bottom: 1px solid #c8c8c8;
   width: 100%;
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 4em;
   z-index: 999;
   background-color: #f0f0f0;
   padding: 10px 200px;
@@ -46,6 +50,7 @@ section {
 }
 
 .main {
+  margin-top: 4em;
   background-color: blue;
   min-height: 100vh;
   display: flex;
@@ -54,19 +59,17 @@ section {
   padding-right: 200px;
   padding-left: 200px;
   text-align: center;
-  position: relative;
-  top: 4em;
 }
 
 .main h2 {
   color: #fff;
-  font-size: xx-large;
+  font-size: 3em;
 }
 
 .main h3 {
   color: white;
   font-size: xx-large;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 2px;
   margin: 0.5em 0;
 }
@@ -111,7 +114,7 @@ section {
   color: white;
   text-decoration: none;
   transition: all ease 0.3s;
-  font-size: larger;
+  font-size: 1.6em;
 }
 
 .social-networks-icons a:hover {
@@ -119,12 +122,15 @@ section {
 }
 
 .tech-stack {
-  min-height: 50vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .tech-stack h1 {
   text-align: center;
-  font-size: xx-large;
+  font-size: 3em;
   margin-bottom: 1em;
   letter-spacing: 2px;
 }
@@ -135,12 +141,12 @@ section {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  width: 80%;
+  width: 70%;
+  height: 300px;
 }
 
 .stack-icons img {
-  width: 100px;
-  height: 100px;
-  margin-right: 30px;
-  margin-top: 30px;
+  width: 120px;
+  height: 120px;
+  padding: 1em;
 }
